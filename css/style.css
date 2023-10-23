@@ -1,0 +1,544 @@
+title {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+caption {
+  font-size: 10px;
+}
+
+link:active {
+  font-size: 14px;
+}
+
+link:hover {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+  }
+  
+  .header-menu {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: right;
+    padding: 10px;
+    margin: 0 0 0 auto;
+    margin: 50px;
+  }
+  
+  .header-menu > a {
+    margin: 50px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .header-menu > a:hover {
+    transition: 0.3s;
+    color: #fca311;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .sp-nav {
+    display: none;
+  }
+  
+  .strength {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px 0px;
+    padding: 10px;
+  }
+
+  .strength > h1 {
+    padding-top: 20px;
+  }
+  
+  .strength > ul {
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .strength > ul > li {
+    margin: 10px;
+  }
+
+  .branch {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+
+  .location {
+    margin: 50px;
+  }
+
+  .location > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+
+  .location > a:hover {
+    transition: 0.3s;
+    color: #fca311;
+  }
+
+  .image > img {
+    max-width: 1400px;
+    display: flex;
+    text-align: center;
+    margin: 20px 10px;
+  }
+
+  /* booking */
+  .booking {
+    padding: 10px;
+    background-color: black;
+  }
+
+  main > .reservation {
+    background: white
+  }
+
+  main > section > span, main > section > h1, main > section > input {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  main > section > span > label {
+    padding: 5px;
+  }
+
+  .submit {
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  /* pricelist */
+  .price {
+    background-color: white ;
+    text-align: center;
+  }
+
+  .pricelist_black {
+    background-color: rgb(74, 72, 72);
+    padding: 10px;
+  }
+
+  .link > a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 30px;
+  }
+
+  /* grouplesson */
+  .group {
+    background-color: black;
+  }
+
+  .group > section > h1 {
+    padding: 10px;
+  }
+
+  .chiball {
+    padding: 10px;
+  }
+
+  .group > section > h1, .group > section > ul > li {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  /* about us */
+  .half-half-layout > img {
+    padding: 10px;
+    width: 45%;
+  }
+
+  .right {
+    float: right ;
+    width: 45%;
+    padding: 30px;
+  }
+
+  .about_footer {
+    clear:  both;
+  }
+
+  /* footer */
+
+  footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+  }
+  
+  .footer-menu {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: right;
+    padding: 10px;
+    margin: 0 0 0 auto;
+    margin: 50px;
+  }
+  
+  .footer-menu > a {
+    margin: 50px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .footer-menu > a:hover {
+    transition: 0.3s;
+    color: #fca311;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+  }
+
+  .header-menu {
+    text-align: right;
+    padding: 10px;
+    margin: 0 0 0 auto;
+  }
+
+  .header-menu > a {
+    margin: 50px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .header-menu > a:hover {
+    transition: 0.3s;
+    color: #fca311;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .sp-nav {
+    display: none;
+  }
+
+  .strength {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px 0px;
+    padding: 10px;
+  }
+
+  .strength > h1 {
+    padding-top: 20px;
+  }
+  
+  .strength > ul {
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .strength > ul > li {
+    margin: 10px;
+  }
+
+  .branch {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .location > iframe,
+  .location > a {
+    display: block;
+    margin: 10px;
+  }
+
+  .image > img {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    margin: 20px 10px;
+    display:flex;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 30px;
+    background-color: black;
+  }
+  
+  .footer-menu {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: right;
+    padding: 10px;
+    margin: 0 0 0 auto;
+  }
+  
+  .footer-menu > a {
+    margin: 50px;
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  .footer-menu > a:hover {
+    transition: 0.3s;
+    color: #fca311;
+  }
+}
+
+@media screen and (max-width:428px) {
+  header {
+    padding: 10px;
+    background-color: black;
+  }
+
+  .hader-logo {
+    width: 80%;
+    height: auto;
+  }
+
+  .header-menu {
+    display: none;
+  }
+
+  #hamburger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 25px;
+    margin: 0 0 0 auto;
+  }
+
+  #hamburger > span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(-50%);
+  }
+
+  #hanburger::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  #hanburger::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  .sp-nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    width: 100%;
+    background: gray;
+    transition: all .2s ease-in-out;
+  }
+
+  .sp-nav {
+   z-index: 1;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   display: block;
+   width: 100%;
+   background: rgba(0, 0, 0, .8);
+   transition: all .2s ease-in-out;
+   opacity: 0;
+   transform: translateY(-100%);
+}
+
+  .sp-nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .sp-nav  li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .sp-nav li span {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .sp-nav li a, .sp-nav li span{
+    display: block;
+    padding: 20px 0;
+  }
+
+  .sp-nav .close {
+    position: relative;
+    padding-left: 20px;
+ }
+ /*バツ印線1*/
+ .sp-nav .close::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 1px;
+    background: #fff;
+    transform: rotate( 45deg );
+ }
+ /*バツ印線2*/
+ .sp-nav .close::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 1px;
+    background: #fff;
+    transform: rotate( -45deg );
+ }
+
+  .strength {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px 0px;
+    padding: 10px;
+  }
+
+  .strength > h1 {
+    padding-top: 20px;
+  }
+  
+  .strength > ul {
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .strength > ul > li {
+    margin: 10px;
+  }
+
+  .branch {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .location > iframe,
+  .location > a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .image > img {
+    width: 95%;
+    display: flex;
+    text-align: center;
+    margin: 20px 10px;
+    display:flex;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: auto;
+  }
+
+  .footer-logo > img {
+    width: 40%;
+    height: 100%;
+  }
+  
+  .footer-menu > a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+  }
+
+  .footer-menu > a:hover {
+    transition: 0.3s;
+    color: #fca311;
+  }
+}
