@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML Strength</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <section class="header-logo">
+      <a href="../index.html"><img src="../images/logo.png" alt="Logo" height="200px" width="200px"></a>
+    </section>
+    <section class="header-menu">
+      <a href="">Membership</a>
+      <a href="#section-6">Group Fitness</a>
+    </section>
+    <section id="hamburger">
+      <span></span>
+    </section>
+    <nav class="sp-nav">
+      <ul>
+        <li><a href="../html/pricelist.html">Membership</a></li>
+        <li><a href="../html/group.html">Group Fitness</a></li>
+        <li class="close"><span>Exit</span></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="pricelist">
+    <section class="pricelist_black">
+      <section class="price">
+        <h1>Price List</h1>
+        <img src="../images/pricelist.png" alt="pricelist">
+      </section>
+  
+      <section class="branch pricelist_location">
+        <div class="location" id="ashgrove">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28326.76726765786!2d152.9638353825949!3d-27.442912598849684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91576be2ae014d%3A0x502a35af3de7ee0!2sAshgrove%20QLD%204060!5e0!3m2!1sen!2sau!4v1696334638612!5m2!1sen!2sau" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="html/booking.html">Ashgrove</a>
+        </div>
+        <div class="location" id="city">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14159.946464524965!2d153.01267840886274!3d-27.46967603257364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a045cf620bb%3A0x502a35af3de84c0!2sBrisbane%20City%20QLD%204000!5e0!3m2!1sen!2sau!4v1696334804415!5m2!1sen!2sau" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="html/booking.html">Brisbane city</a>
+        </div>
+        <div class="location" id="chermside">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14170.764395148106!2d153.0228589588115!3d-27.38536096881267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b93e2b03184df5f%3A0x502a35af3de8470!2sChermside%20QLD%204032!5e0!3m2!1sen!2sau!4v1696334869986!5m2!1sen!2sau" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="html/booking.html">Chermside</a>
+        </div>
+        <div class="location" id="Graceville">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14153.265800800105!2d152.97253030889442!3d-27.521626191074507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915024dbf92419%3A0x502a35af3de8a20!2sGraceville%20QLD%204075!5e0!3m2!1sen!2sau!4v1696335182315!5m2!1sen!2sau" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="html/booking.html">Graceville</a>
+        </div>
+        <div class="location" id="Westlake">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d452114.58013358305!2d152.81044189369135!3d-27.712804131835824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b914e093b33e663%3A0x502a35af3de9d70!2sWestlake%20QLD%204074!5e0!3m2!1sen!2sau!4v1696334953579!5m2!1sen!2sau" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a href="html/booking.html">Westlake</a>
+        </div>
+      </section>
+      <div class="link"><a href="booking.html">Become a member today</a></div>
+    </section>
+  </main>
+  <footer>
+    <section class="footer-logo">
+      <a href="../index.html"><img src="../images/logo.png" alt="Logo" height="200px" width="200px"></a>
+    </section>
+    <section class="footer-menu">
+      <a href="#">About us</a>
+    </section>
+    <section class="footer-menu">
+      <a href="#">Enquiry</a>
+    </section>
+  </footer>
+</body>
+</html>
